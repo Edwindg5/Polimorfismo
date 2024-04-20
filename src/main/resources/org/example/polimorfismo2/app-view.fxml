@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="510.0" style="-fx-background-color: #5d8aa8;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.polimorfismo2.controllers.AppController">
+    <children>
+        <Label layoutX="193.0" layoutY="20.0" text="Bienvenidos al sistema " />
+        <Button fx:id="base1" layoutX="66.0" layoutY="58.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedBase1" prefHeight="25.0" prefWidth="138.0" text="Base de datos 1" />
+        <Button fx:id="base2" layoutX="66.0" layoutY="100.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedBase2" prefHeight="25.0" prefWidth="138.0" text="Base de datos 2" />
+        <Button fx:id="base3" layoutX="66.0" layoutY="141.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedBase3" prefHeight="25.0" prefWidth="138.0" text="Base de datos 3" />
+        <Button fx:id="closeButton" layoutX="324.0" layoutY="113.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedCerrar" text="Cerrar aplicación" />
+        <Button fx:id="addButton" layoutX="66.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedAñadir" text="Añadir" />
+        <Button fx:id="updataButton" layoutX="159.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedUpdata" text="Actualizar" />
+    </children>
+</AnchorPane>
