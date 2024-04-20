@@ -4,9 +4,9 @@ package org.example.polimorfismo2.models;
 import java.util.ArrayList;
 
 public class Dbs {
-    private ISudent estudiantesDbs1 = (ISudent) new Dbs1();
-    private ISudent estudiantesDbs2 = (ISudent) new Dbs2();
-    private ISudent estudiantesDbs3 = (ISudent) new Dbs3();
+    private ISudent estudiantesDbs1 =  new Dbs1();
+    private ISudent estudiantesDbs2 =  new Dbs2();
+    private ISudent estudiantesDbs3 =  new Dbs3();
 
     public boolean addStudent(Student newStudent) {
         boolean bandera;
@@ -27,10 +27,6 @@ public class Dbs {
         }
         return bandera;
     }
-    public ArrayList<Student> getStudentBase1(){
-        return estudiantesDbs1.getStudent();
-    }
-    public ArrayList<Student> getStudentBase2(){return estudiantesDbs2.getStudent();}
     public ArrayList<Student> getStudentDbs3(){return estudiantesDbs3.getStudent();}
 
     public ArrayList<Student> getStudentDbs1() {return estudiantesDbs1.getStudent();}
